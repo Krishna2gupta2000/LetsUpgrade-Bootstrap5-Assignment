@@ -1,0 +1,25 @@
+.block1{
+    color:aqua;
+    background-color: darkred;
+}
+
+.block2{
+    background-color: orange;
+    color:red;
+}
+
+.block3{
+    color: yellow;
+    background-color: red;
+}
+
+.myrow{
+    text-align: center;
+    height: 150px;
+}
+.mycol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
