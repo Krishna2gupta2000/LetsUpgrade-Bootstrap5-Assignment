@@ -1,0 +1,18 @@
+.mycard{
+    width: 350px;
+    padding-top:10px;
+    margin-bottom: 25px;
+    background-color: lightcyan;
+}
+.mycard img{
+    height: 200px;
+}
+.mycard p{
+    height: 50px;
+}
+tbody th{
+    border-left: 1px solid black;
+    border-right: 2px dotted black;
+    font-family: cursive;
+    
+}
