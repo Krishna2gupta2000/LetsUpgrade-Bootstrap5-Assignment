@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/eaa153d191.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Reggae+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="details.css">
+
+    <!--<script src="btn.js"></script>-->
+    
+
+
+    <title>Treba Tourism</title>
+</head>
+
+<body>
+    <script src="search.js"></script>
+
+    <nav id="stktp" class="navbar mynavbar navbar-expand-lg navbar-light  bg-dark ms-auto">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">BlackPink  Travels</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"  style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#pbanner" id="navbarScrollingDropdown" 
+                            aria-expanded="false">
+                            Pricing
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" id="searchbar" onfocusout="focusoutFunction()" onkeyup="search_text()" type="text" placeholder="Search" aria-label="Search">
+                    
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner here-->
+
+    <div class="banner container-fluid   ">
+        <div class="banner-content col-xs-12 col-12 col-md-6 col-lg-6 ">
+            <div class="card-body">
+                <div class="h1 ">Stress due To Covid?</div>
+                <hr>
+                <p class="">Visit Sri Lanka , To reduce your Stress along with enjoying the beautiful sea and sand,
+                    taking advantage of Sri Lanka’s unique biodiversity is a must. Wildlife safaris and tours of tea
+                    plantations are fun options. Treks and boat rides to cinnamon farms with eagle spotting along the
+                    way are available in the island interior.</p>
+                <a href="#places" class="btn btn-dark btn-lg" style="color: white !important;">Check it Out!</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Places to visit -->
+    <div id="places" class="places container ">
+        <div class="heading mt-4 display-4 shadow-lg">Heaven is HERE!</div>
+        <div class="card-group row justify-content-between">
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/06/shutterstock_397314796.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Galle Fort</h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted"> A 16th Century Marvel</h5>
+                    <p class="card-text"> One of the best places to visit in Sri Lanka is the Galle Fort. The Galle Fort area has wide cobblestoned roads and a number of eateries and cafes.</p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2014/11/Dambulla-Cave-Temple_23rd-oct.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Dambulla Cave Temple</h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted">The Largest Temple Complex In Sri Lanka</h5>
+                    <p class="card-text">It tops the Sri Lanka tourist destinations. The largest temple complex in Sri Lanka, its statues and paintings date back to the 12th Century AD. </p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2014/11/Yala-National-Park-in-Sri-Lanka_23rd-oct.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Yala National Park </h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted">Home To A Host Of Wildlife And Birds</h5>
+                    <p class="card-text">Missing Yala National Park while Sri Lanka sightseeing might bring regret to wildlife lovers.Yala is the perfect place to try your hand at wildlife photography.</p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="heading mt-4 display-4 shadow-lg">Where you can find THESE!</div>
+        <div class="card-group row justify-content-between">
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/02/Sea-Surfing-at-Arugam-Bay.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Arugam Bay</h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted">Turquoise Heaven For Adrenaline-Junkies</h5>
+                    <p class="card-text">Sri Lanka has a coastline of over 1600 km and is ideally suited for windsurfing, speed boating, and other water sports. Arugam Bay has azure skies and slanting coconut trees.</p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2015/02/Nuwara-Eliya1.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Nuwara Eliya</h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted">Get Closer To Pristine Nature </h5>
+                    <p class="card-text">Nuwara Eliya is most famous for its tea gardens and scenery. It is a perfect place to visit for a romantic vacation or for someone who is looking for a relaxing trip.</p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+            <div class="card mycard shadow gx-0 mt-5 mb-3 bg-body rounded">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2017/05/shutterstock-565351408-kw-010517-A-shot-of-the-Ravana-Falls-in-Ella-region-in-Sri-Lanka.jpg" />
+                <div class="card-body">
+                    <h1 class="card-title">Ravana Falls</h1>
+                    <h5 class="card-subtitle ml-2 mb-2 text-muted">Enjoy The Impressive Sight Of The Magnificent Fall</h5>
+                    <p class="card-text">The beautiful Ravana falls is one of the famous Sri Lanka attractions. The majestic and magnificent fall is an impressive sight especially during the rainy season.</p>
+                    <a href="#" class="btn btn-dark">More Info</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--End of Places to Visit-->
+
+    <!--Banner for packages-->
+    <div id="pbanner" class="container-fluid pbanner">
+
+        <div class="pbanner-content col-xs-12 col-12 col-md-7 col-lg-7">
+            <div for="pbanner" class="card-body">
+                <h1>BOOK Your Tour At Cheaper Price Now!</h1>
+                <hr>
+                <p>The pearl shaped island is a paradise for any tourist and it is quite a smart idea for you to make it
+                    your honeymoon destination. The blend of Buddhist culture and the exotic beaches in the island make
+                    it a perfect destination for anyone. There are various Sri Lanka tour packages that are available
+                    for the visitors from India and you can make a check upon the same to find the one that suits you
+                    the most.</p>
+                <a id="pbanner" href="#pkg" class="btn bubbly-button btn-lg btn-outline-dark ">Check Now </a>
+                <!--<i class="fa fa-long-arrow-right"  style="font-size: xx-large;" aria-hidden="true"></i> -->
+                <div class="arrow align-top c">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+      
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--packages-->
+    <div id="pkg" class="container">
+
+        <div class="heading mt-4 display-4 shadow-lg">Popular Sri lanka Tour Packages</div>
+
+        <div><table class="table mt-2 table-striped bordered  inverse table-inverse table-responsive">
+                <thead class="thead-inverse thead-default">
+                    <tr>
+                        <th>Packages</th>
+                        <th>Price</th>
+                        <th>Nights</th>
+                        <th>Inclusions</th>
+                        <th></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Sri Lankan Tales</td>
+                        <td>Rs 16,999</td>
+                        <td>5 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d1" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td scope="row">A Weekend Visit to Kandy & Colombo - Standard</td>
+                        <td>Rs 11,599</td>
+                        <td>2 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d2" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">A Weekend Visit to Kandy & Colombo - Deluxe</td>
+                        <td>Rs 12,999</td>
+                        <td>2 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d3" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">A Weekend Visit to Kandy & Colombo - Premium</td>
+                        <td>Rs 14,999</td>
+                        <td>5 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d4" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Srilankan Wonders - Standard</td>
+                        <td>Rs 19,999</td>
+                        <td>4 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d5" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Majestic Sri Lanka - Standard</td>
+                        <td>Rs.22,999</td>
+                        <td>4 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d6" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Scenic Sri Lanka - Standard</td>
+                        <td>Rs.22,999</td>
+                        <td>5 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d7" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Srilankan Wonders - Premium</td>
+                        <td>Rs 31,299</td>
+                        <td>4 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d8" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Exotic Sri Lanka</td>
+                        <td>Rs 39,990</td>
+                        <td>3 Nights</td>
+                        <td>Meals , Flights , Accommodation , Transfer , Sightseeing</td>
+                        <td> <a href="#d9" class="btn btn-dark">Details </a>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+    <!--POP up Card-->
+    <div id="d1">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1484724358/Beruwala.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Sri Lankan Tales</strong></div>
+                    <div class=" btn btn-outline-dark">5 Nights / 6 Days</div>
+                    <div class="h5 pt-2">Kandy (2N) → Bentota (2N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-3">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 1,045</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 16,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d2" class="col-sm-12">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1492772432/Western_province.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>A Weekend Visit to Kandy & Colombo - Standard</strong></div>
+                    <div class=" btn btn-outline-dark">2 Nights / 3 Days</div>
+                    <div class="h5 pt-2">Kandy (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 713</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 11,599</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d3">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1435820303/Tropical_beach_in_Sri_Lanka.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>A Weekend Visit to Kandy & Colombo - Deluxe</strong></div>
+                    <div class=" btn btn-outline-dark">2 Nights / 3 Days</div>
+                    <div class="h5 pt-2">Kandy (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-3">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 799</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 12,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d4" class="col-sm-12">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1492772774/Kalutara.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>A Weekend Visit to Kandy & Colombo - Premium</strong></div>
+                    <div class=" btn btn-outline-dark">2 Nights / 3 Days</div>
+                    <div class="h5 pt-2">Kandy (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 922</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 14,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d5">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1470985261/Bentota_Map.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Srilankan Wonders - Standard</strong></div>
+                    <div class=" btn btn-outline-dark">4 Nights / 5 Days</div>
+                    <div class="h5 pt-2">Colombo (1N) → Nuwara Eliya (1N) → Kandy (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-3">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 1,229</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 19,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d6" class="col-sm-12">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1492772774/Kalutara.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Majestic Sri Lanka - Standard</strong></div>
+                    <div class=" btn btn-outline-dark">4 Nights / 5 Days</div>
+                    <div class="h5 pt-2">Kandy (2N) → Bentota (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 1,413</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 22,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d7">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1470985261/Bentota_Map.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Scenic Sri Lanka - Standard</strong></div>
+                    <div class=" btn btn-outline-dark">5 Nights / 6 Days</div>
+                    <div class="h5 pt-2">Kandy (1N) → Nuwara Eliya (1N) → Bentota (2N) Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-3">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 1,413</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 22,999</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d8" class="col-sm-12">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1487591952/Matale.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Srilankan Wonders - Premium</strong></div>
+                    <div class=" btn btn-outline-dark">4 Nights / 5 Days</div>
+                    <div class="h5 pt-2">Colombo (1N) → Nuwara Eliya (1N) → Kandy (1N) → Colombo (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 1,923</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 31,299</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    <div id="d9">
+        <a href="#pkg" class="cancel">
+            <i class="fas fa-window-close"></i>
+        </a>
+
+        <!--More Detail Overlay-->
+        <div class="more-detail gx-0 shadow col-12">
+            <div class="card-body gx-0 p-0 mydetail">
+                <img class="col-5"
+                    src="https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_desktop_hc/v1468315668/Bentota3.jpg" />
+                <div class="col-4 p-2 ">
+                    <div class=" card-title display-5  mydetail2 "><strong>Exotic Sri Lanka</strong></div>
+                    <div class=" btn btn-outline-dark">3 Nights / 4 Days</div>
+                    <div class="h5 pt-2">Kalutara (2N) → Sigiriya (1N)</div>
+                    <div class="row ico d-flex">
+                        <div class="col-3">
+                            <i class="fas fa-utensils"></i>Meals
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-plane-departure"></i> Flight
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-bed"></i> Hotel
+                        </div>
+                        <div class="col-3">
+                            <i class="fas fa-taxi"></i> Travel
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mydetail3  col-3">
+                    <div class="pt-4"> <span class="btn btn-outline-dark">EMI </span> Rs 2,457</div>
+                    <div class=" h3 pt-2 pb-1"><strong>Rs 39,990</strong></div>
+                    <div class=" card-subtitle p-1">Per Person on twin sharing
+                    </div>
+                    <button type="button" class="btn btn-dark btn-lg">BOOK NOW</button>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="cover">
+
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="" lang="javascript"></script>
+</body>
+
+</html>

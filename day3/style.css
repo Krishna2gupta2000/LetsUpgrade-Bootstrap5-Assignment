@@ -1,0 +1,123 @@
+.mynavbar{
+    color:white !important;
+    height: 20% !important;
+    font-size: xx-large;
+    
+}
+#navbarScroll{
+    justify-content: flex-end;
+}
+.mynavbar a:hover{
+    border-width: 0px !important;
+    background-color:#343a40 !important;
+    border-radius: 20px;
+}
+body{
+    background-color: lightpink;
+    font-family: 'Patrick Hand', cursive;
+}
+
+a{
+    color: #ff0081 !important;
+}
+.mycard a{
+    color: white !important;
+}
+.banner{
+    background-image: url("https://www.tripsavvy.com/thmb/8ISrc4b1yQhHUgbzlMLHdU2cX14=/950x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-520870128-1c1f8305c37949ab967d13de38ddf9eb.jpg");
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*margin-bottom: 25px;*/
+
+}
+.banner-content{
+    background-color: white;
+    opacity: 0.8 ;
+    align-items: center;    
+}
+.banner-content:hover{
+    background-color: black;
+    color:  #ff0081;
+    transform: scale(1.03);
+}
+button:hover{
+    border:5px solid  #ff0081 !important;
+    color:  #ff0081 !important;
+}
+a:hover{
+    border:5px solid  #ff0081 !important;
+    color:  #ff0081 !important;
+}
+.mycard{
+    margin-right: 20px;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    
+}
+.mycard img{
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    height: 30vh;
+}
+.mycard:hover{
+    background-color: black !important;
+    color:  #ff0081;
+    transform: scale(1.03);
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.7) !important;
+}
+.heading{
+    padding:10px;
+ 
+   border-color: white;
+   font-family: 'Reggae One', cursive;
+   
+}
+.heading:hover  {
+    background-color: black;
+    color:  #ff0081;
+    transform: scale(1.03);
+}
+
+.pbanner{
+    background-image: url("https://pbs.twimg.com/media/EPSc0t1XUAINXEO?format=jpg&name=4096x4096") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.pbanner-content{
+    background-color: white;
+    align-items: center;
+    opacity: 0.7;
+    box-shadow: 70px 70px 70px 70px rgba(0, 0, 0, 0.9);
+    
+}
+.pbanner-content:hover{
+    background-color: black;
+    color:  #ff0081;
+    transform: scale(1.03);
+}
+
+tr:hover{
+    background-color: black;
+    color: #ff0081 !important;
+    font-weight: bold;
+}
+tr a{
+    color: white !important;
+}
+th{
+    background-color: black !important;
+    color: #ff0081 !important;
+    border-bottom-width: 10px !important;
+    
+}
+/*font-family: 'Baskervville', serif;
+font-family: 'Reggae One', cursive;*/

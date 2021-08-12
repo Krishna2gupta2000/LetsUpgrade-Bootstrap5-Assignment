@@ -1,0 +1,79 @@
+
+    #cover{
+      position:fixed;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      z-index:5;
+      width:100%;
+      height:100%;
+      display:none;
+    }
+    #d1,#d2,#d3,#d4,#d5,#d6,#d7,#d8,#d9
+    {
+   
+      margin:0px 0px 100px 0px;
+      position:relative;
+      z-index:10;
+      display:none;
+      background: url("https://i.pinimg.com/originals/28/69/16/286916b63cfb1572348adc4ce16f1d99.jpg") ;
+      border:5px solid #cccccc;
+      background-size: cover;
+      border-radius:10px;
+    }
+    #d1:target, #d1:target + #cover,#d2:target, #d2:target + #cover,#d3:target, #d3:target + #cover,#d4:target, #d4:target + #cover,#d5:target, #d5:target + #cover,#d6:target, #d6:target + #cover,#d7:target, #d7:target + #cover,#d8:target, #d8:target + #cover,#d9:target, #d9:target + #cover{
+      display:block;
+      opacity:2;
+    }
+
+    .cancel
+    {
+      display:block;
+      position:absolute;
+      top:3px;
+      right:2px;
+      
+      color:black;
+      height:30px;
+      width:35px;
+      font-size:30px;
+      text-decoration:none;
+      text-align:center;
+      font-weight:bold;
+    }
+.cancel:hover{
+    border-width: 0px !important;
+}
+.more-detail{
+    background: url("https://i.pinimg.com/originals/28/69/16/286916b63cfb1572348adc4ce16f1d99.jpg") ;
+      
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+}
+.mydetail{
+    display: inline-flex ;
+    align-items: top;
+    
+}
+.mydetail2{
+    margin-top: 15px;
+    
+}
+.mydetail3{
+    text-align: end;
+    justify-content: end;
+    margin-top: 25px;
+    padding-right: 30px !important;
+}
+.ico {
+    font-size: 28px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 15px;
+    
+}
+.ico i{
+  padding: 5px;
+}
